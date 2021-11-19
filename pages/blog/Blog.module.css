@@ -1,0 +1,19 @@
+.container {
+  padding: 0px 30px;
+}
+
+.title {
+  color: #333;
+  font-size: 26px;
+}
+
+.single {
+  padding: 5px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 0px;
+  border-left: 8px solid #fff;
+}
+.single:hover {
+  border-left: 8px solid #4979ff;
+}

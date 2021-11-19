@@ -1,0 +1,81 @@
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 970px) {
+  .horizontal {
+    flex-direction: column;
+  }
+}
+
+.shapes {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  align-self: flex-start; /* align self */
+  text-align: center;
+}
+
+@media only screen and (max-width: 970px) {
+  .shapes {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+}
+
+.singleShape {
+  margin: 10px;
+  width: 240px;
+  height: 170px;
+  background-image: url(https://avongraphix.com/wp-content/uploads/edd/2015/11/woman-avatar-4.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* This is what makes the background image rescale based
+on the container’s size */
+  background-size: cover;
+  background-color: white;
+  border: 1px solid #4e4e4e;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 60% 40% 40% 60% / 45% 60% 40% 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 100ms transform ease-in-out; /* shape ease in out transition */
+}
+
+@media only screen and (max-width: 970px) {
+  .singleShape {
+    width: 380px;
+  }
+}
+
+.firstTitle {
+  color: #4e4e4e;
+  line-height: 1em;
+  font-size: 1.75em;
+}
+
+.secondTitle {
+  color: #4e4e4e;
+  align-self: center;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.shapes:hover .singleShape {
+  background-color: white;
+  border-radius: 40% 60% 51% 50% / 45% 60% 40% 55%;
+  transform: scale(1.025); /* shape ease in out transition */
+  transition: 100ms; /* border radius transition */
+}
+
+.shapes:hover .firstTitle {
+  text-decoration: underline #4e4e4e;
+}
