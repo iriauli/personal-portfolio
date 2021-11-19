@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Shapes from "../components/Shapes/index";
 import Random from "../components/Random/index";
