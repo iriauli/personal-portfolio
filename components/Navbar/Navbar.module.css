@@ -1,13 +1,12 @@
-.container {
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
 }
 
 @media only screen and (max-width: 970px) {
-  .container {
+  .header {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,7 +15,7 @@
 
 .logo {
   margin-right: auto;
-  padding: 10px 30px;
+  padding: 10px 0px;
 }
 
 @media only screen and (max-width: 970px) {

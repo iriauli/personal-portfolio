@@ -2,9 +2,14 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      Copyright © 2021 All Rights Reserved
-    </footer>
+    <div className="fluid">
+      <div className="content">
+        <footer className={styles.footer}>
+          <div className={styles.left}>Copyright © 2021</div>
+          <div className={styles.right}>Content</div>
+        </footer>
+      </div>
+    </div>
   );
 };
 

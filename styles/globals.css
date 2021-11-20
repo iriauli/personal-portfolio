@@ -45,6 +45,11 @@ a {
 .content {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0px 30px;
+}
+
+.fluid {
+  background-color: #b2beb5;
 }
 
 .active {

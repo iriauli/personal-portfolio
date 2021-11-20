@@ -6,29 +6,32 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <header className={styles.container}>
-      <div className={styles.logo}>
-        <h1>Portfolio</h1>
-      </div>
+    <div className="content">
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          <h1>Portfolio</h1>
+        </div>
 
-      <nav className={styles.menu}>
-        <Link href="/">
-          <a
-            className={router.pathname === "/" ? styles.selected : styles.none}
-          >
-            About
-          </a>
-        </Link>
-        <Link href="/projects">
-          <a
-            className={
-              router.pathname === "/projects" ? styles.selected : styles.none
-            }
-          >
-            Projects
-          </a>
-        </Link>
-        {/* <Link href="/blog">
+        <nav className={styles.menu}>
+          <Link href="/">
+            <a
+              className={
+                router.pathname === "/" ? styles.selected : styles.none
+              }
+            >
+              About
+            </a>
+          </Link>
+          <Link href="/projects">
+            <a
+              className={
+                router.pathname === "/projects" ? styles.selected : styles.none
+              }
+            >
+              Projects
+            </a>
+          </Link>
+          {/* <Link href="/blog">
           <a
             className={
               router.pathname === "/blog" ? styles.selected : styles.none
@@ -37,17 +40,18 @@ const Navbar = () => {
             Blog
           </a>
         </Link> */}
-        <Link href="/contact">
-          <a
-            className={
-              router.pathname === "/contact" ? styles.selected : styles.none
-            }
-          >
-            Contact
-          </a>
-        </Link>
-      </nav>
-    </header>
+          <Link href="/contact">
+            <a
+              className={
+                router.pathname === "/contact" ? styles.selected : styles.none
+              }
+            >
+              Contact
+            </a>
+          </Link>
+        </nav>
+      </header>
+    </div>
   );
 };
 

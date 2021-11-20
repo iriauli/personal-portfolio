@@ -1,3 +1,14 @@
+.projects {
+  padding: 30px 0px;
+}
+
+.title {
+  color: #333;
+  font-size: 26px;
+  border-bottom: 1px solid #ffbf00;
+  margin-bottom: 20px;
+}
+
 .horizontal {
   display: flex;
   justify-content: space-between;
@@ -11,7 +22,7 @@
 }
 
 .shapes {
-  width: 250px;
+  width: 270px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +41,7 @@
 
 .singleShape {
   margin: 10px;
-  width: 240px;
+  width: 270px;
   height: 170px;
   background-image: url(https://avongraphix.com/wp-content/uploads/edd/2015/11/woman-avatar-4.png);
   background-position: center center;
