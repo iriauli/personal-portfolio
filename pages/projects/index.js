@@ -12,17 +12,19 @@ const Projects = () => {
 
       <div className="fluid">
         <div className="content">
-          <h1 className={styles.title}>Projects</h1>
-          {Data.map((article) => (
-            <div key={article.id}>
-              <a className={styles.single}>
-                <h1>{article.name}</h1>
-                <h3>{article.description}</h3>
-                <p>Code: {article.code}</p>
-                <p>Demo: {article.demo}</p>
-              </a>
-            </div>
-          ))}
+          <div className={styles.projects}>
+            <h1 className={styles.title}>Projects</h1>
+            {Data.map((article) => (
+              <div key={article.id}>
+                <a className={styles.single}>
+                  <h1>{article.name}</h1>
+                  <h3>{article.description}</h3>
+                  <p>Code: {article.code}</p>
+                  <p>Demo: {article.demo}</p>
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

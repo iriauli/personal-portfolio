@@ -43,7 +43,7 @@ a {
   text-decoration: none;
 }
 .content {
-  max-width: 960px;
+  max-width: var(--breakpoint-lg);
   margin: 0 auto;
   padding: 0px 30px;
 }

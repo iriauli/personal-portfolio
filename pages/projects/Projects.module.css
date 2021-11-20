@@ -1,6 +1,12 @@
+.projects {
+  padding: 30px 0px;
+}
+
 .title {
   color: #333;
   font-size: 26px;
+  border-bottom: 1px solid #ffbf00;
+  margin-bottom: 20px;
 }
 
 .single {
@@ -8,4 +14,5 @@
   background: #fff;
   display: block;
   border-left: 8px solid #fff;
+  margin-bottom: 20px;
 }
