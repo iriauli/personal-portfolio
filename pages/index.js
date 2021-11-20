@@ -3,6 +3,7 @@ import About from "../components/About/index";
 import Shapes from "../components/Shapes/index";
 import Random from "../components/Random/index";
 import Grid from "../components/Grid/index";
+import Articles from "../components/Articles/index";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
             <About />
           </div>
         </div>
+
         <div className="content">
           <Shapes />
         </div>
@@ -29,6 +31,12 @@ export default function Home() {
 
         <div className="content">
           <Grid />
+        </div>
+
+        <div className="fluid">
+          <div className="content">
+            <Articles />
+          </div>
         </div>
       </div>
     </>

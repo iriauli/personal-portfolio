@@ -3,9 +3,8 @@
 }
 
 .title {
-  color: #333;
+  color: black;
   font-size: 26px;
-  border-bottom: 1px solid #ffbf00;
   margin-bottom: 20px;
 }
 
@@ -43,13 +42,14 @@
   margin: 10px;
   width: 270px;
   height: 170px;
-  background-image: url(https://avongraphix.com/wp-content/uploads/edd/2015/11/woman-avatar-4.png);
+
+  background-color: #e8e8e8;
+
+  /* background-image: url(https://avongraphix.com/wp-content/uploads/edd/2015/11/woman-avatar-4.png);
   background-position: center center;
   background-repeat: no-repeat;
-  /* This is what makes the background image rescale based
-on the container’s size */
-  background-size: cover;
-  background-color: white;
+  background-size: cover; */
+
   border: 1px solid #4e4e4e;
 
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
@@ -80,13 +80,29 @@ on the container’s size */
   margin-top: 10px;
 }
 
+.inside {
+  color: black;
+  width: 118px;
+  height: 118px;
+  filter: grayscale(100%);
+}
+
 .shapes:hover .singleShape {
-  background-color: white;
+  /* background-color: #e7feff; */
   border-radius: 40% 60% 51% 50% / 45% 60% 40% 55%;
   transform: scale(1.025); /* shape ease in out transition */
   transition: 100ms; /* border radius transition */
 }
 
 .shapes:hover .firstTitle {
-  text-decoration: underline #4e4e4e;
+  /* text-decoration: underline #4e4e4e; */
+  text-shadow: 2px 2px #e7feff;
+}
+
+.shapes:hover .inside {
+  width: 102px;
+  height: 102px;
+  transform: scale(1.025); /* shape ease in out transition */
+  transition: 100ms; /* border radius transition */
+  transform: rotate(5deg);
 }

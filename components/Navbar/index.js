@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
+import { ImQrcode } from "react-icons/im";
 
 const Navbar = () => {
   const router = useRouter();
@@ -9,7 +10,7 @@ const Navbar = () => {
     <div className="content">
       <header className={styles.header}>
         <div className={styles.logo}>
-          <h1>Portfolio</h1>
+          <ImQrcode size="2rem" />
         </div>
 
         <nav className={styles.menu}>

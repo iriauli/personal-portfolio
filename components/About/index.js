@@ -3,18 +3,20 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <div className={styles.about}>
-      <h1 className={styles.title}>Hi, my name is Irakli</h1>
-      <p className={styles.text}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industrys standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
+      <div className={styles.form}>
+        <div className={styles.left}>
+          <h1 className={styles.title}>Hi,</h1>
+          <h1 className={styles.title}>I&apos;m Irakli,</h1>
+          <h1 className={styles.title}>web developer.</h1>
+        </div>
+        <div className={styles.right}>
+          <div className={styles.shapes}>
+            <div className={styles.singleShape}></div>
+            <h1 className={styles.firstTitle}></h1>
+            <h2 className={styles.secondTitle}></h2>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

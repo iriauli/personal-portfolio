@@ -1,12 +1,10 @@
 .contact {
   padding: 30px 0px;
-  background-color: gold;
 }
 
 .title {
   color: #333;
   font-size: 26px;
-  border-bottom: 1px solid #ffbf00;
   margin-bottom: 20px;
 }
 
@@ -27,10 +25,8 @@
 
 .left {
   width: 100%;
-  background-color: pink;
 }
 
 .right {
   width: 100%;
-  background-color: powderblue;
 }

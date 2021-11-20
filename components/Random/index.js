@@ -3,18 +3,32 @@ import styles from "./Random.module.css";
 const Random = () => {
   return (
     <div className={styles.random}>
-      <h2 className={styles.title}>The heads on Easter Island have bodies.</h2>
+      <h2 className={styles.title}>Article #1</h2>
       <p className={styles.text}>
-        The iconic stone heads protruding from the ground on Easter Island are
-        familiar to most, but many don\t realize what lies beneath the surface.
-        In the \10s, archaeologists studying the hundreds of stone statues on
-        the Pacific Island excavated two of the figures, revealing full torsos,
-        which measure as high as 33 feet.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius
+        tempor nunc at viverra. Fusce et sodales metus. Mauris arcu metus,
+        fringilla vitae facilisis a, condimentum consequat ante. Nulla id
+        imperdiet lectus. Quisque sit amet velit lectus. Duis in lectus
+        venenatis, scelerisque nibh vitae, ornare nunc. Sed pulvinar, magna
+        vitae auctor mollis, nulla diam mollis lectus, sed dictum tellus elit
+        vel justo. Suspendisse potenti. Curabitur sodales nulla ipsum, vitae
+        volutpat est imperdiet at. Pellentesque posuere cursus commodo. Proin
+        consequat justo vel ligula vulputate condimentum. Vivamus sodales vel
+        nisl vel mattis. Maecenas pellentesque sit amet urna in feugiat. Etiam
+        dapibus sapien sit amet velit condimentum luctus. Proin eleifend
+        consequat elit nec faucibus. Mauris ornare tortor mauris, id dignissim
+        nibh faucibus sit amet. Nullam blandit mi diam, a rhoncus libero
+        bibendum eu. Mauris nunc ligula, rutrum eu gravida eu, ornare ac nunc.
+        Cras efficitur ipsum a pulvinar maximus. Donec tempus turpis a nunc
+        mattis ullamcorper. In efficitur orci pellentesque eleifend lacinia.
+        Etiam dictum, eros ac consequat rhoncus, justo lectus ultricies dolor,
+        ultrices fringilla dui velit eu lacus. Duis felis ipsum, hendrerit vel
+        mauris vitae, commodo lobortis nunc. Ut ac tortor eu mi placerat tempus
+        ac eu dolor. Integer sollicitudin, enim sodales finibus laoreet, nisi
+        mauris interdum mauris, sed semper dolor lacus a dui. Ut tincidunt erat
+        sit amet ex interdum, eu porttitor nisl fringilla. Nullam pulvinar quis
+        felis vel eleifend.
       </p>
-      <details>
-        <summary>Click here to see details</summary>
-        <p>Details</p>
-      </details>
     </div>
   );
 };

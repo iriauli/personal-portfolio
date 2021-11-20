@@ -4,27 +4,31 @@
     "name": "GitHub User Manager",
     "description": "Final Project for Tbilisi School of Communication",
     "code": "https://github.com/iriauli/github-user-manager",
-    "demo": "none"
+    "demo": "none",
+    "icon": "/app_001.png"
   },
   {
     "id": 2,
     "name": "Millionaire App",
     "description": "Who Wants to Be a Millionaire App",
     "code": "https://github.com/iriauli/millionaire-app",
-    "demo": "https://millionaire-app-game.netlify.app/"
+    "demo": "https://millionaire-app-game.netlify.app/",
+    "icon": "/app_002.png"
   },
   {
     "id": 3,
     "name": "Trivia API Quiz",
     "description": "Quiz App",
     "code": "https://github.com/iriauli/trivia-api-quiz",
-    "demo": "https://trivia-api-quiz.netlify.app/"
+    "demo": "https://trivia-api-quiz.netlify.app/",
+    "icon": "/app_003.png"
   },
   {
     "id": 4,
     "name": "Client-Side Form Validation",
     "description": "Handle and Validate React Forms",
     "code": "https://github.com/iriauli/client-side-form-validation",
-    "demo": "https://client-side-form-validation.netlify.app/"
+    "demo": "https://client-side-form-validation.netlify.app/",
+    "icon": "/app_004.png"
   }
 ]
