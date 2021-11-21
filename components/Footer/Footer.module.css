@@ -2,7 +2,7 @@
   width: 100%;
 
   padding: 30px 0;
-  color: black7;
+  color: #292929;
   /* border-top: 1px solid #ddd; */
 }
 
@@ -20,4 +20,8 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+}
+
+.icon {
+  cursor: pointer;
 }

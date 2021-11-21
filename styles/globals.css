@@ -54,6 +54,19 @@ a {
   -moz-box-shadow: inset 0.1px 1px 5px -2px var(--gray);
   -webkit-box-shadow: inset 0.1px 1px 5px -2px var(--gray);
   box-shadow: inset 0.1px 1px 5px -2px var(--gray);
+  animation: pulse 15s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #e8e8e8;
+  }
+  70% {
+    background-color: #dedede;
+  }
+  100% {
+    background-color: #e8e8e8;
+  }
 }
 
 .active {

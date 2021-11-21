@@ -1,6 +1,5 @@
 .about {
   padding: 30px 0px;
-
 }
 
 .title {
@@ -27,47 +26,4 @@
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-
-
-.shapes {
-  width: 270px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  align-self: flex-start; /* align self */
-  text-align: center;
-}
-
-.singleShape {
-  margin: 10px;
-  width: 385px;
-  height: 285px;
-
-  background-color: #e8e8e8;
-  background-image: url(/cover.jpg), linear-gradient(red, transparent);
-  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #ffe135),
-  url("/cover.jpg") center; */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  border: 1px solid #2a52be;
-
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 54% 45% 65% 35% / 60% 55% 45% 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 100ms transform ease-in-out; /* shape ease in out transition */
-}
-
-.shapes:hover .singleShape {
-  width: 405px;
-  height: 285px;
-  border-radius: 40% 60% 55% 45% / 60% 55% 45% 40%;
-  transform: scale(1.025); /* shape ease in out transition */
-  transition: 100ms; /* border radius transition */
 }

@@ -29,5 +29,48 @@
   align-items: center;
   font-size: 1.1em;
   padding: 1.5em;
-  color: black;
+  color: #292929;
+}
+
+.html,
+.css,
+.javascript,
+.typescript,
+.react,
+.next,
+.sass,
+.bootstrap {
+  font-size: 5rem;
+}
+
+.html:hover {
+  color: #e54c21;
+}
+
+.css:hover {
+  color: #0170ba;
+}
+
+.javascript:hover {
+  color: #ffc927;
+}
+
+.typescript:hover {
+  color: #2d79c7;
+}
+
+.react:hover {
+  color: #00d8ff;
+}
+
+.next:hover {
+  color: #1ebcb4;
+}
+
+.sass:hover {
+  color: #cd669a;
+}
+
+.bootstrap:hover {
+  color: #7952b3;
 }

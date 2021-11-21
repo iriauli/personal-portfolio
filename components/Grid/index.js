@@ -14,28 +14,28 @@ const Grid = () => {
       {/* <h1 className={styles.title}>Technologies</h1> */}
       <div className={styles.gridContainer}>
         <div className={styles.gridItem}>
-          <FaHtml5 size="5rem" />
+          <FaHtml5 className={styles.html} />
         </div>
         <div className={styles.gridItem}>
-          <FaCss3Alt size="5rem" />
+          <FaCss3Alt className={styles.css} />
         </div>
         <div className={styles.gridItem}>
-          <SiJavascript size="4.5rem" />
+          <SiJavascript className={styles.javascript} />
         </div>
         <div className={styles.gridItem}>
-          <SiTypescript size="4.5rem" />
+          <SiTypescript className={styles.typescript} />
         </div>
         <div className={styles.gridItem}>
-          <FaReact size="5rem" />
+          <FaReact className={styles.react} />
         </div>
         <div className={styles.gridItem}>
-          <SiNextdotjs size="5rem" />
+          <SiNextdotjs className={styles.next} />
         </div>
         <div className={styles.gridItem}>
-          <FaSass size="5rem" />
+          <FaSass className={styles.sass} />
         </div>
         <div className={styles.gridItem}>
-          <FaBootstrap size="5rem" />
+          <FaBootstrap className={styles.bootstrap} />
         </div>
       </div>
     </div>

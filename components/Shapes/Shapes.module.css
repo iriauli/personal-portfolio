@@ -105,4 +105,5 @@
   transform: scale(1.025); /* shape ease in out transition */
   transition: 100ms; /* border radius transition */
   transform: rotate(5deg);
+  filter: grayscale(0%);
 }

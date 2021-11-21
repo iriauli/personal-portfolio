@@ -5,14 +5,64 @@
 .title {
   color: #333;
   font-size: 26px;
-  border-bottom: 1px solid #ffbf00;
   margin-bottom: 20px;
 }
 
-.single {
-  padding: 5px 16px;
-  background: #fff;
-  display: block;
-  border-left: 8px solid #fff;
+.block {
+  background-color: #f2f2f2;
+  padding: 20px 20px 1px 20px;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
   margin-bottom: 20px;
+}
+
+.left {
+  width: 100%;
+  border-bottom: 1px dotted black;
+}
+
+.singleProject {
+  padding: 20px 15px 30px 15px;
+  display: block;
+}
+
+.right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dotted black;
+}
+
+.code {
+  width: 170px;
+  height: 70px;
+  background-color: #e8e8e8;
+  border: 1px dotted black;
+  font-size: 22px;
+  font-weight: 300;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50% 50% 55% 45% / 45% 60% 40% 55%;
+  transition: 100ms transform ease-in-out;
+}
+
+.code:hover {
+  width: 170px;
+  height: 70px;
+  background-color: black;
+  color: #ffbf00;
+  font-size: 25px;
+  font-weight: 900;
+  text-shadow: 1px 1px white;
+  text-transform: uppercase;
+  border-radius: 60% 40% 45% 55% / 45% 55% 45% 55%;
+  transform: scale(1.025);
+  transition: 100ms;
+  transform: rotate(2deg);
 }
