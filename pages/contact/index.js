@@ -1,10 +1,11 @@
 import Head from "next/head";
+import Link from "next/dist/client/link";
 import styles from "./Contact.module.css";
+
 import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaLinkedin,
-  FaGithubSquare,
 } from "react-icons/fa";
 
 const Contact = () => {
@@ -29,9 +30,18 @@ const Contact = () => {
                     </h2>
                   </div>
                   <div className={styles.social}>
-                    <FaFacebookSquare size="5rem" color="#43609c" />
-                    <FaInstagramSquare size="5rem" color="#ef0074" />
-                    <FaLinkedin size="5rem" color="#0982c0" />
+                    <Link href="https://www.facebook.com/ika.iriauli/">
+                      <FaFacebookSquare className={styles.facebook} />
+                    </Link>
+                    <Link href="https://www.instagram.com/ikairiauli/">
+                      <FaInstagramSquare className={styles.instagram} />
+                    </Link>
+                    <Link
+                      className={styles.linkedin}
+                      href="https://www.linkedin.com/in/iriauli/"
+                    >
+                      <FaLinkedin className={styles.linkedin} />
+                    </Link>
                   </div>
                 </div>
                 <div className={styles.right}>

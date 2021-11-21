@@ -13,7 +13,7 @@
 }
 
 .block {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
 }
@@ -39,6 +39,36 @@
   height: 50%;
   display: flex;
   justify-content: center;
+}
+
+.facebook {
+  font-size: 5rem;
+  color: #43609c;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  transform: rotate(5deg);
+}
+
+.instagram {
+  font-size: 5rem;
+  color: #ef0074;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  transform: rotate(5deg);
+}
+
+.linkedin {
+  font-size: 5rem;
+  color: #0982c0;
+  cursor: pointer;
+}
+
+.linkedin:hover {
+  transform: rotate(5deg);
 }
 
 .right {
