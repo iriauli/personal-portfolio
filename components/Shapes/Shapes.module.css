@@ -1,45 +1,20 @@
-.projectss {
-  /* padding: 30px 0px; */
-  height: 40vh;
-  /* display: flex;
-  align-items: center; */
-  /* background-color: red; */
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;
-}
-
-@media only screen and (max-width: 970px) {
-  .projectss {
-    height: 55vh;
-  }
-}
-
-
-
-
-
-
-
-
 .gridContainerr {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 6em);
-  grid-gap: 20px;
+  grid-template-rows: repeat(1, 350px);
 }
 
 @media only screen and (max-width: 970px) {
   .gridContainerr {
-    margin-top: 200px;
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 14em);
-
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .gridContainerr {
+    grid-template-columns: repeat(1, 1fr);
+}
+
 }
 
 .gridItemm {
@@ -54,46 +29,30 @@
 
 
 
-
-
-
-
-
-
-.title {
-  color: black;
-  font-size: 26px;
-  margin-bottom: 20px;
-}
-
-/* .horizontal {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@media only screen and (max-width: 970px) {
-  .horizontal {
-    flex-direction: column;
-  }
-} */
-
 .shapes {
-width: 220px;
-height: 200px;
-text-align: center;
-/* background-color: royalblue; */
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: royalblue; */
   color: #3c3c3c;
   cursor: pointer;
-  
+  display: flex;
+  flex-direction: flex-end;
+  align-items: center;
+  text-align: center;
 }
 
-
+@media only screen and (max-width: 576px) {
+  .shapes {
+height: auto;
+margin-bottom: 20px;
+}
+}
 
 .singleShape {
- 
-  width: 200px;
-  height: 150px;
+  width: 190px;
+  height: 140px;
 
   background-color: #f5f5f5;
 
@@ -111,16 +70,11 @@ text-align: center;
   transition: 100ms transform ease-in-out; /* shape ease in out transition */
 }
 
-@media only screen and (max-width: 970px) {
-  .singleShape {
-  }
-}
-
 .firstTitle {
   line-height: 1em;
-  font-size: 1.55em;
+  font-size: 1.5em;
   font-weight: 500;
-  margin-top: 7px;
+  margin-top: 15px;
 }
 
 .secondTitle {
@@ -131,9 +85,9 @@ text-align: center;
 }
 
 .inside {
-  width: 90px;
-  height: 90px;
-  /* filter: grayscale(100%); */
+  width: 80px;
+  height: 80px;
+  filter: grayscale(100%);
 }
 
 .shapes:hover .singleShape {
@@ -149,10 +103,10 @@ text-align: center;
 }
 
 .shapes:hover .inside {
-  width: 97px;
-  height: 97px;
+  width: 92px;
+  height: 92px;
   transform: scale(1.025); /* shape ease in out transition */
   transition: 100ms; /* border radius transition */
-  /* filter: grayscale(0%); */
-  transform: rotate(10deg);
+  filter: grayscale(0%);
+  transform: rotate(5deg);
 }

@@ -1,61 +1,49 @@
 .about {
-  /* padding: 30px 0px; */
+  padding: 30px 0px;
   display: flex;
   justify-content: center;
-  height: 50vh;
-}
-
-@media only screen and (max-width: 970px) {
-  .about {
-    height: 35vh;
-  }
 }
 
 .firstLine {
-  background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+  background-image: linear-gradient(90deg, #333333, #828282);
   font-weight: 900;
   /* text-transform: uppercase; */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.08em;
   font-size: 5vw;
 }
 
 .secondLine {
-  background-image: linear-gradient(90deg, #7928ca, #ff0080);
+  background-image: linear-gradient(90deg, #004343, #00cccc);
   font-weight: 900;
   text-transform: uppercase;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.03em;
 }
 
 .thirdLine {
-  background-image: linear-gradient(90deg, #1f1f1f, #505050);
+  background-image: linear-gradient(90deg, #333333, #828282);
   font-weight: 900;
-  /* text-transform: uppercase; */
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.08em;
   font-size: 5vw;
   margin-left: 50px;
 }
 
 .fourthLine {
-  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  background-image: linear-gradient(90deg, #004343, #00cccc);
   font-weight: 900;
   text-transform: uppercase;
   background-clip: text;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.03em;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.text {
-  color: #777;
 }
 
 .form {
@@ -65,8 +53,7 @@
 }
 
 .greeting {
-  width: 100%;
-  font-size: 3.5vw;
+  font-size: 3.2vw;
   line-height: 0.8;
 }
 
@@ -77,6 +64,12 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .greeting {
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (max-width: 576px) {
   .greeting {
     font-size: 6vw;
   }

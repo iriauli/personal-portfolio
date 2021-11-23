@@ -29,7 +29,7 @@
   align-items: center;
   font-size: 1.1em;
   padding: 1.5em;
-  color: #292929;
+  color: #333333;
 }
 
 .html,
@@ -44,34 +44,34 @@
   filter: grayscale(0.1);
 }
 
-.html {
+.html:hover {
   color: #e54c21;
 }
 
-.css {
+.css:hover {
   color: #0170ba;
 }
 
-.javascript {
+.javascript:hover {
   color: #ffc927;
 }
 
-.typescript {
+.typescript:hover {
   color: #2d79c7;
 }
 
-.react {
+.react:hover {
   color: #00d8ff;
 }
 
-.next {
+.next:hover {
   color: #1ebcb4;
 }
 
-.sass {
+.sass:hover {
   color: #cd669a;
 }
 
-.bootstrap {
+.bootstrap:hover {
   color: #7952b3;
 }

@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Millionaire App",
-    "description": "Who Wants to Be a Millionaire App",
+    "description": "Who Wants to Be a Millionaire Game",
     "code": "https://github.com/iriauli/millionaire-app",
     "demo": "https://millionaire-app-game.netlify.app/",
     "icon": "/app_002.png"

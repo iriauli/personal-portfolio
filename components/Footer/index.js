@@ -7,11 +7,11 @@ const Footer = () => {
     <div className="content">
       <footer className={styles.footer}>
         <div className={styles.form}>
-          <div className={styles.left}>© 2021</div>
+          <div className={styles.left}>© Irakli Iriauli, 2021</div>
           <div className={styles.right}>
             <div className={styles.icon}>
               <Link href="https://github.com/iriauli">
-                <FaGithubSquare size="2rem" />
+                <FaGithubSquare />
               </Link>
             </div>
           </div>

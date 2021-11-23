@@ -11,11 +11,7 @@ const Articles = () => {
         pretium eget, sodales ac felis. Ut condimentum velit quis egestas
         vulputate. Praesent lacinia metus quam, eu vulputate tellus tristique
         nec. Sed sit amet sodales libero, non faucibus justo. Duis eu erat a
-        velit ultrices accumsan. Suspendisse a venenatis libero, sed euismod
-        ante. Mauris dapibus erat sit amet libero lacinia pulvinar. Sed
-        tristique eget ex sit amet venenatis. Cras mattis velit odio.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
+        velit ultrices accumsan.
       </p>
     </div>
   );

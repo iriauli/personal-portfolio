@@ -3,20 +3,9 @@ import Link from "next/dist/client/link";
 import styles from "./Shapes.module.css";
 import Data from "../../pages/api/projects.json";
 
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaSass,
-  FaBootstrap,
-} from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiNextdotjs } from "react-icons/si";
-
 const Shapes = () => {
   return (
-    <div className={styles.projectss}>
 
-<div className={styles.box}>
 
 <div className={styles.gridContainerr}>
         
@@ -41,8 +30,7 @@ const Shapes = () => {
         ))}
 
         </div>
-      </div>
-      </div>
+
 
 
 
