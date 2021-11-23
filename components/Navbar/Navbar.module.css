@@ -1,15 +1,15 @@
 .header {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   /* border-bottom: 1px solid #ddd; */
+  height: 10vh;
 }
 
 @media only screen and (max-width: 970px) {
   .header {
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
 }
 
@@ -28,6 +28,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 970px) {
@@ -39,18 +42,20 @@
 }
 
 .menu a {
-  font-size: 18px;
+  color: #3c3c3c;
   padding: 20px 30px;
   border-bottom: 2px solid #ffffff;
+  letter-spacing: 0.7px;
 }
 
 .menu a:hover {
   /* background: linear-gradient(#f2f2f2, #e8e8e8); */
-  border-bottom: 2px solid black;
+  /* border-bottom: 1px dotted #3c3c3c; */
+  color: #ff4d4d;
 }
 .menu a.selected {
   /* background: linear-gradient(#f2f2f2, #e8e8e8); */
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid #ff4d4d;
 }
 
 .menu a.none {

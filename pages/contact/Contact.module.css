@@ -38,7 +38,6 @@
 .social {
   height: 50%;
   display: flex;
-  justify-content: center;
 }
 
 .facebook {
@@ -93,7 +92,7 @@
   height: 285px;
 
   background-color: #e8e8e8;
-  background-image: url(/cover.jpg), linear-gradient(red, transparent);
+  background-image: url(/cover.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,4 +113,24 @@
   border-radius: 40% 60% 55% 45% / 60% 55% 45% 40%;
   transform: scale(1.025);
   transition: 100ms;
+}
+
+.firstTitle {
+  line-height: 1em;
+  font-size: 1.55em;
+  font-weight: 500;
+  margin-top: 7px;
+  text-transform: uppercase;
+}
+
+.secondTitle {
+  align-self: center;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.shapes:hover .firstTitle {
+  text-decoration: underline dotted #4e4e4e;
+  /* text-shadow: 2px 2px #e7feff; */
 }

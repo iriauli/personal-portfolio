@@ -1,23 +1,52 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/dist/client/link";
 import styles from "./Shapes.module.css";
 import Data from "../../pages/api/projects.json";
 
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaSass,
+  FaBootstrap,
+} from "react-icons/fa";
+import { SiJavascript, SiTypescript, SiNextdotjs } from "react-icons/si";
+
 const Shapes = () => {
   return (
-    <div className={styles.projects}>
-      {/* <h1 className={styles.title}>Projects</h1> */}
-      <div className={styles.horizontal}>
-        {Data.slice(0, 3).map((article) => (
-          <div key={article.id} className={styles.shapes}>
-            <div className={styles.singleShape}>
-              <img className={styles.inside} src={article.icon} alt="icon" />
-            </div>
-            <h1 className={styles.firstTitle}>{article.name}</h1>
-            <h2 className={styles.secondTitle}>{article.description}</h2>
+    <div className={styles.projectss}>
+
+<div className={styles.box}>
+
+<div className={styles.gridContainerr}>
+        
+          
+        {Data.slice(0, 4).map((article) => (
+          <div key={article.id} className={styles.gridItemm}>
+
+            <div className={styles.shapes}>
+            <Link href={article.code}>
+              <div className={styles.singleShape}>
+                <img className={styles.inside} src={article.icon} alt="icon" />
+              </div>
+            </Link>
+            <Link href={article.code}>
+              <h1 className={styles.firstTitle}>{article.name}</h1>
+            </Link>
+            <Link href={article.code}>
+              <h2 className={styles.secondTitle}>{article.description}</h2>
+            </Link>
+          </div>
           </div>
         ))}
+
+        </div>
       </div>
-    </div>
+      </div>
+
+
+
+
   );
 };
 

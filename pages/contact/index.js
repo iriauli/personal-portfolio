@@ -24,10 +24,9 @@ const Contact = () => {
               <div className={styles.form}>
                 <div className={styles.left}>
                   <div className={styles.intro}>
-                    <h2>Do you speak Georgian?</h2>
-                    <h2>
-                      It&apos;s ok if you don&apos;t, I speak English too.
-                    </h2>
+                  <h1 className={styles.firstTitle}>Irakli Iriauli</h1>
+                    <h2 className={styles.secondTitle}>irakliiriauli@gmail.com</h2>
+                    <h2 className={styles.secondTitle}>+995 591 051 081</h2>
                   </div>
                   <div className={styles.social}>
                     <Link href="https://www.facebook.com/ika.iriauli/">
@@ -47,8 +46,6 @@ const Contact = () => {
                 <div className={styles.right}>
                   <div className={styles.shapes}>
                     <div className={styles.singleShape}></div>
-                    <h1 className={styles.firstTitle}></h1>
-                    <h2 className={styles.secondTitle}></h2>
                   </div>
                 </div>
               </div>

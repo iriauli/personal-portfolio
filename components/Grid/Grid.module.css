@@ -40,37 +40,38 @@
 .next,
 .sass,
 .bootstrap {
-  font-size: 4rem;
+  font-size: 4.5rem;
+  filter: grayscale(0.1);
 }
 
-.html:hover {
+.html {
   color: #e54c21;
 }
 
-.css:hover {
+.css {
   color: #0170ba;
 }
 
-.javascript:hover {
+.javascript {
   color: #ffc927;
 }
 
-.typescript:hover {
+.typescript {
   color: #2d79c7;
 }
 
-.react:hover {
+.react {
   color: #00d8ff;
 }
 
-.next:hover {
+.next {
   color: #1ebcb4;
 }
 
-.sass:hover {
+.sass {
   color: #cd669a;
 }
 
-.bootstrap:hover {
+.bootstrap {
   color: #7952b3;
 }
