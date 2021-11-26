@@ -15,37 +15,20 @@ const Navbar = () => {
 
         <nav className={styles.menu}>
           <Link href="/">
-            <a
-              className={
-                router.pathname === "/" ? styles.selected : styles.none
-              }
-            >
+            <a className={router.pathname === "/" ? styles.selected : ""}>
               About
             </a>
           </Link>
           <Link href="/projects">
             <a
-              className={
-                router.pathname === "/projects" ? styles.selected : styles.none
-              }
+              className={router.pathname === "/projects" ? styles.selected : ""}
             >
               Projects
             </a>
           </Link>
-          {/* <Link href="/blog">
-          <a
-            className={
-              router.pathname === "/blog" ? styles.selected : styles.none
-            }
-          >
-            Blog
-          </a>
-        </Link> */}
           <Link href="/contact">
             <a
-              className={
-                router.pathname === "/contact" ? styles.selected : styles.none
-              }
+              className={router.pathname === "/contact" ? styles.selected : ""}
             >
               Contact
             </a>

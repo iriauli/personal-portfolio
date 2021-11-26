@@ -15,83 +15,93 @@
   margin-left: 30px;
   width: 70%;
 }
+.back {
+  color: #333333;
+  height: 30px;
+}
+
+.title:hover .back {
+  color: #007f7f;
+}
 
 .block {
   background-color: #ffffff;
-  padding: 20px 20px 1px 20px;
   border-radius: 10px;
-}
-.card {
-  padding: 5px 0px;
-  display: flex;
   margin-bottom: 20px;
+  /* padding: 30px 30px 10px 30px; */
 }
 
-@media only screen and (max-width: 576px) {
-  .card {
-    flex-direction: column;
-  }
-}
-
-.left {
-  width: 100%;
-  border-bottom: 1px dotted black;
-}
-
-@media only screen and (max-width: 576px) {
-  .left {
-    border-bottom: none;
-  }
-}
-
-.singleProject {
-  padding: 20px 15px 30px 15px;
-  display: block;
-}
-
-.right {
+.block img {
   width: 30%;
+  filter: grayscale(100%);
+  transform: rotate(-15deg);
+}
+
+.projectName {
+  padding: 20px 30px;
+  background-image: linear-gradient(90deg, #dde4e7, #ffffff);
+  border-radius: 10px 10px 0px 0px;
+  font-weight: 600;
+}
+
+.projectDescription {
+  padding: 20px 30px;
+  font-weight: 400;
+}
+
+.projectIcon {
   display: flex;
   justify-content: right;
-  align-items: center;
-  border-bottom: 1px dotted black;
 }
 
-@media only screen and (max-width: 576px) {
-  .right {
-    width: 100%;
-    padding-bottom: 20px;
-    border-bottom: 1px dotted black;
-  }
+.projectLinks {
+  padding: 20px 30px;
+  background-image: linear-gradient(90deg, #dde4e7, #ffffff);
+  border-radius: 0px 0px 10px 10px;
 }
 
-.code {
-  width: 150px;
-  height: 50px;
-  font-size: 22px;
-  font-weight: 700;
-  color: #f5f5f5;
+.projectDemo {
+  padding: 5px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  color: #333333;
   cursor: pointer;
-  border-radius: 50% 50% 55% 45% / 45% 60% 40% 55%;
-  transition: 100ms transform ease-in-out;
-  background-image: linear-gradient(90deg, #004343, #00a5a5);
-  text-transform: uppercase;
-  transform: rotate(-5deg);
+  border: 1px dotted #333333;
+  font-size: 25px;
+  font-weight: 400;
+  background-color: #f4f6f7;
 }
 
-.code:hover {
-  width: 170px;
-  height: 60px;
-  color: #ffbf00;
-  font-size: 25px;
-  font-weight: 900;
-  text-shadow: 1px 1px white;
-  text-transform: uppercase;
-  border-radius: 60% 40% 45% 55% / 45% 55% 45% 55%;
-  transform: scale(1.025);
-  transition: 100ms;
-  transform: rotate(-10deg);
+.projectDemo:hover {
+  background-color: #e9edef;
+}
+
+.cardArrow {
+  margin-left: 5px;
+  font-size: 35px;
+}
+
+.projectDemo:hover .cardArrow {
+  color: #007f7f;
+}
+
+.cardMore {
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: #333333;
+  cursor: pointer;
+  border: 1px dotted #333333;
+}
+
+.cardArrow {
+  margin-left: 5px;
+  font-size: 35px;
+}
+
+.cardMore:hover .cardArrow {
+  color: #007f7f;
 }

@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import Link from "next/dist/client/link";
+import Link from "next/link";
 import { FaGithubSquare } from "react-icons/fa";
 
 const Footer = () => {
@@ -11,7 +11,9 @@ const Footer = () => {
           <div className={styles.right}>
             <div className={styles.icon}>
               <Link href="https://github.com/iriauli">
-                <FaGithubSquare />
+                <a>
+                  <FaGithubSquare />
+                </a>
               </Link>
             </div>
           </div>

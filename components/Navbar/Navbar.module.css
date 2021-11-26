@@ -17,10 +17,6 @@
   padding: 10px 0px;
 }
 
-.logo:hover {
-  color: #007f7f;
-}
-
 @media only screen and (max-width: 970px) {
   .logo {
     display: none;
