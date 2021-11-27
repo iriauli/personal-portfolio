@@ -1,11 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import Head from "next/dist/shared/lib/head";
+import Head from "next/head";
 import Link from "next/link";
 import styles from "./Projects.module.css";
 import Data from "../api/projects.json";
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
+// comment
 export const getStaticPaths = async () => {
   const paths = Data.map((project) => {
     return {
@@ -29,7 +30,7 @@ export const getStaticProps = async (context) => {
 };
 
 const Details = ({ project }) => {
-  console.log(project)
+  console.log(project);
   return (
     <div className={styles.details}>
       <Head>
