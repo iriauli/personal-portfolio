@@ -1,11 +1,9 @@
 import styles from "./Card.module.css";
 import Link from "next/dist/client/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { useRouter } from "next/router";
 
 const Card = (props) => {
-  const { id, name, description } = props;
-  const router = useRouter();
+  const { id, name, description, code } = props;
 
   return (
     <div>
@@ -19,7 +17,7 @@ const Card = (props) => {
         </div>
 
         <div className={styles.cardDetails}>
-          <Link href={"/projects/" + id}>
+          <Link href={code}>
             <h3 className={styles.cardMore}>
               See More <IoIosArrowRoundForward className={styles.cardArrow} />
             </h3>

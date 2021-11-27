@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "./Projects.module.css";
-import Data from "../api/projects.json";
 import Card from "../../components/Card";
+import Data from "../api/projects.json";
 
 const Projects = () => {
   return (
