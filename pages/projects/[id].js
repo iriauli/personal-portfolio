@@ -41,7 +41,7 @@ const Details = ({ project }) => {
             <h1 className={styles.title}>
               <Link href="/projects">
                 <a>
-                  <MdOutlineKeyboardBackspace className={styles.back} />{" "}
+                  <MdOutlineKeyboardBackspace className={styles.back} />
                   Projects
                 </a>
               </Link>

@@ -3,7 +3,7 @@ import Link from "next/dist/client/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Card = (props) => {
-  const { id, name, description, code } = props;
+  const { id, name, description } = props;
 
   return (
     <div>
