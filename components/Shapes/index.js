@@ -9,15 +9,15 @@ const Shapes = () => {
       {Data.slice(0, 4).map((project) => (
         <div key={project.id} className={styles.gridItemm}>
           <div className={styles.shapes}>
-            <Link href={project.code}>
+            <Link href={"/projects/" + project.id}>
               <div className={styles.singleShape}>
                 <img className={styles.inside} src={project.icon} alt="icon" />
               </div>
             </Link>
-            <Link href={project.code}>
+            <Link href={"/projects/" + project.id}>
               <h1 className={styles.firstTitle}>{project.name}</h1>
             </Link>
-            <Link href={project.code}>
+            <Link href={"/projects/" + project.id}>
               <h2 className={styles.secondTitle}>{project.description}</h2>
             </Link>
           </div>

@@ -17,7 +17,7 @@ const Card = (props) => {
         </div>
 
         <div className={styles.cardDetails}>
-          <Link href={code}>
+          <Link href={"/projects/" + id}>
             <h3 className={styles.cardMore}>
               See More <IoIosArrowRoundForward className={styles.cardArrow} />
             </h3>

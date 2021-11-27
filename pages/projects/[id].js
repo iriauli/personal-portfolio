@@ -6,14 +6,33 @@ import Data from "../api/projects.json";
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-const Details = () => {
-  // const id = location.pathname.slice(-1);
-  // const project = Data[id - 1];
+export const getStaticPaths = async () => {
+  const paths = Data.map((project) => {
+    return {
+      params: { id: project.id.toString() },
+    };
+  });
 
+  return {
+    paths,
+    fallback: true,
+  };
+};
+
+export const getStaticProps = async (context) => {
+  const id = context.params.id;
+  const data = Data[id - 1];
+
+  return {
+    props: { project: data },
+  };
+};
+
+const Details = ({ project }) => {
   return (
     <div className={styles.details}>
       <Head>
-        {/* <title>Projects | {project.name}</title> */}
+        <title>Projects | {project.name}</title>
         <meta name="keywords" content="projects" />
       </Head>
       <div className="fluid">
@@ -28,22 +47,22 @@ const Details = () => {
               </Link>
             </h1>
             <div className={styles.block}>
-              {/* <h1 className={styles.projectName}>{project.name}</h1> */}
+              <h1 className={styles.projectName}>{project.name}</h1>
               <h1 className={styles.projectDescription}>
-                {/* {project.description} */}
+                {project.description}
               </h1>
               <div className={styles.projectIcon}>
-                {/* <img src={project.icon} alt="photo" /> */}
+                <img src={project.icon} alt="photo" />
               </div>
               <div className={styles.projectLinks}>
-                {/* <Link href={project.code} target="blank">
+                <Link href={project.code} target="blank">
                   <a>
                     <button className={styles.projectDemo}>
                       See on GitHub
                       <IoIosArrowRoundForward className={styles.cardArrow} />
                     </button>
                   </a>
-                </Link> */}
+                </Link>
               </div>
             </div>
           </div>
