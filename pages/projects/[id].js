@@ -15,7 +15,7 @@ export const getStaticPaths = async () => {
 
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 };
 
@@ -29,6 +29,7 @@ export const getStaticProps = async (context) => {
 };
 
 const Details = ({ project }) => {
+  console.log(project)
   return (
     <div className={styles.details}>
       <Head>
