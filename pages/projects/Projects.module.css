@@ -13,11 +13,6 @@
   font-size: 2.75rem;
   margin-bottom: 30px;
   margin-left: 30px;
-  width: 70%;
-}
-.back {
-  color: #333333;
-  height: 30px;
 }
 
 .title:hover .back {
@@ -27,14 +22,6 @@
 .block {
   background-color: #ffffff;
   border-radius: 10px;
-  margin-bottom: 20px;
-  /* padding: 30px 30px 10px 30px; */
-}
-
-.block img {
-  width: 30%;
-  filter: grayscale(100%);
-  transform: rotate(-15deg);
 }
 
 .projectName {
@@ -51,7 +38,8 @@
 
 .projectIcon {
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  padding: 20px;
 }
 
 .projectLinks {

@@ -4,7 +4,7 @@
 }
 
 .card {
-  background-image: linear-gradient(90deg, #dde4e7, #ffffff);
+  background-image: linear-gradient(90deg, #e9edef, #ffffff);
   margin-bottom: 20px;
   padding: 0px 20px;
   display: flex;
@@ -53,7 +53,8 @@
 }
 
 .cardContent h1 {
-  font-weight: 600;
+  font-size: 1.8em;
+  font-weight: 500;
 }
 .cardContent h3 {
   font-weight: 400;
@@ -72,7 +73,7 @@
   font-weight: 400;
 }
 .cardMore {
-  padding: 5px 20px;
+  padding: 2px 20px;
   display: flex;
   align-items: center;
   border-radius: 10px;
