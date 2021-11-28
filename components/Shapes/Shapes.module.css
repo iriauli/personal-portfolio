@@ -13,8 +13,7 @@
 @media only screen and (max-width: 576px) {
   .gridContainerr {
     grid-template-columns: repeat(1, 1fr);
-}
-
+  }
 }
 
 .gridItemm {
@@ -25,16 +24,11 @@
   color: #292929;
 }
 
-
-
-
-
 .shapes {
   width: 200px;
   height: 300px;
   display: flex;
   flex-direction: column;
-  /* background-color: royalblue; */
   color: #3c3c3c;
   cursor: pointer;
   display: flex;
@@ -45,15 +39,14 @@
 
 @media only screen and (max-width: 576px) {
   .shapes {
-height: auto;
-margin-bottom: 20px;
-}
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
 
 .singleShape {
   width: 190px;
   height: 140px;
-
   background-color: #f5f5f5;
 
   /* background-image: url(https://avongraphix.com/wp-content/uploads/edd/2015/11/woman-avatar-4.png);
