@@ -17,7 +17,7 @@
 }
 
 body {
-  background: #ffffff;
+  background-image: linear-gradient(90deg, #f4f6f7, #ffffff);
   color: #333;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -40,6 +40,18 @@ a {
   -moz-box-shadow: inset 0.1px 1px 5px -2px var(--gray);
   -webkit-box-shadow: inset 0.1px 1px 5px -2px var(--gray);
   box-shadow: inset 0.1px 1px 5px -2px var(--gray);
+}
+
+
+.content2 {
+  max-width: var(--breakpoint-lg);
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+
+.fluid2 {
+  width: 100%;
+  background-image: linear-gradient(90deg, #f4f6f7, #ffffff);
 }
 
 .active {

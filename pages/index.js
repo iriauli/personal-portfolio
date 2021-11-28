@@ -18,16 +18,20 @@ export default function Home() {
             <About />
           </div>
         </div>
-        <div className="content">
-          <Shapes />
+        <div className="fluid2">
+          <div className="content">
+            <Shapes />
+          </div>
         </div>
         <div className="fluid">
           <div className="content">
             <Random />
           </div>
         </div>
-        <div className="content">
-          <Grid />
+        <div className="fluid2">
+          <div className="content">
+            <Grid />
+          </div>
         </div>
         <div className="fluid">
           <div className="content">

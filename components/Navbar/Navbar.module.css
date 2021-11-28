@@ -43,7 +43,7 @@
 .menu a {
   color: #3c3c3c;
   padding: 20px 30px;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid transparent;
   letter-spacing: 0.7px;
 }
 

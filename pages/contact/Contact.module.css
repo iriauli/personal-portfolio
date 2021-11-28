@@ -20,7 +20,7 @@
 }
 
 .block {
-  background-color: #ffffff;
+  background-image: linear-gradient(90deg, #e9edef, #ffffff);
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
   height: 300px;
