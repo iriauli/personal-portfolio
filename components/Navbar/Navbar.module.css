@@ -58,6 +58,8 @@
 }
 .menu a.selected {
   border-bottom: 2px solid #007f7f;
+  color: #007f7f;
+  /* background-image: linear-gradient(to top, #f4f6f7, #ffffff); */
 }
 
 .menu a.none {

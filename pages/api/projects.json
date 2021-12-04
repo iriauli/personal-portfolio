@@ -33,18 +33,10 @@
   },
   {
     "id": 5,
-    "name": "Test Project",
-    "description": "Random",
-    "code": "https://github.com/",
-    "demo": "https://netlify.app/",
-    "icon": "/app_004.png"
-  },
-  {
-    "id": 6,
-    "name": "Test Project 2",
-    "description": "Random",
-    "code": "https://github.com/",
-    "demo": "https://netlify.app/",
-    "icon": "/app_004.png"
+    "name": "Data Fetching",
+    "description": "Different Methods for Data Fetching in React",
+    "code": "https://github.com/iriauli/data-fetching",
+    "demo": "https://data-fetching-usereducer.netlify.app/",
+    "icon": "/app_005.png"
   }
 ]
