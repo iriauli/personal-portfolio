@@ -3,7 +3,7 @@ import Link from "next/dist/client/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Card = (props) => {
-  const { id, name, description } = props;
+  const { id, name, about } = props;
 
   return (
     <div>
@@ -13,7 +13,7 @@ const Card = (props) => {
         </div>
         <div className={styles.cardContent}>
           <h1>{name}</h1>
-          <h3>{description}</h3>
+          <h3>{about}</h3>
         </div>
 
         <div className={styles.cardDetails}>

@@ -18,7 +18,7 @@ const Shapes = () => {
               <h1 className={styles.firstTitle}>{project.name}</h1>
             </Link>
             <Link href={"/projects/" + project.id}>
-              <h2 className={styles.secondTitle}>{project.description}</h2>
+              <h2 className={styles.secondTitle}>{project.about}</h2>
             </Link>
           </div>
         </div>

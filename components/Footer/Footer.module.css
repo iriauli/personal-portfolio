@@ -2,6 +2,7 @@
   width: 100%;
   padding: 30px 0;
   color: #333333;
+  letter-spacing: 1.3px;
   /* border-top: 1px solid #ddd; */
 }
 
@@ -21,7 +22,15 @@
   justify-content: flex-end;
 }
 
-.icon {
+.icon a {
   cursor: pointer;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
+  transition: color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out;
+}
+
+.icon a:hover {
+  color: #007f7f;
+  transition: color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out;
 }

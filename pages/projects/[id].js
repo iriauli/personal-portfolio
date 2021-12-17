@@ -31,7 +31,6 @@ export const getStaticProps = async (context) => {
 };
 
 const Details = ({ project }) => {
-  console.log(project);
   return (
     <div className={styles.details}>
       <Head>
@@ -51,6 +50,7 @@ const Details = ({ project }) => {
                   alt="photo"
                 />
               </div>
+              <div className={styles.description}>{project.description}</div>
               <div className={styles.projectLinks}>
                 <Link href={project.code} target="blank">
                   <a>

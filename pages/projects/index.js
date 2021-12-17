@@ -20,7 +20,7 @@ const Projects = () => {
                 <Card
                   id={project.id}
                   name={project.name}
-                  description={project.description}
+                  about={project.about}
                   code={project.code}
                 />
               </div>

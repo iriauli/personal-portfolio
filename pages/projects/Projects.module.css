@@ -31,9 +31,13 @@
   font-weight: 600;
 }
 
-.projectDescription {
+.description {
   padding: 20px 30px;
   font-weight: 400;
+  font-size: 1.25rem;
+  color: #3c3c3c;
+  line-height: 1.6em !important;
+  background-image: linear-gradient(90deg, #f4f6f7, #ffffff);
 }
 
 .projectIcon {

@@ -2,7 +2,8 @@
   {
     "id": 1,
     "name": "GitHub User Manager",
-    "description": "Final Project for Tbilisi School of Communication",
+    "about": "Final Project for Tbilisi School of Communication",
+    "description": "Fetching data from GitHub REST API. App divide into four parts: Dashboard - list of GitHub top users, Details - additional information about users (top repositories/organizations), Search - find users and Favorites - add/remove users.",
     "code": "https://github.com/iriauli/github-user-manager",
     "demo": "none",
     "icon": "/app_001.png"
@@ -10,7 +11,8 @@
   {
     "id": 2,
     "name": "Millionaire App",
-    "description": "Who Wants to Be a Millionaire Game",
+    "about": "Who Wants to Be a Millionaire TV show app",
+    "description": "'Who Wants to Be a Millionaire' TV show app. Choose answers and app shows correct ones. If answer is correct the game continues, otherwise it is finished and earned money is appeared on screen.",
     "code": "https://github.com/iriauli/millionaire-app",
     "demo": "https://millionaire-app-game.netlify.app/",
     "icon": "/app_002.png"
@@ -18,25 +20,28 @@
   {
     "id": 3,
     "name": "Trivia API Quiz",
-    "description": "Quiz App",
+    "about": "Fetching data from Open Trivia Database",
+    "description": "Fetching data from Open Trivia Database. In the beginning there is opportunity to choose number of questions, categories and difficulty levels. At the end correct answers percentage is shown.",
     "code": "https://github.com/iriauli/trivia-api-quiz",
     "demo": "https://trivia-api-quiz.netlify.app/",
     "icon": "/app_003.png"
   },
   {
     "id": 4,
-    "name": "Client-Side Form Validation",
-    "description": "Handle and Validate React Forms",
-    "code": "https://github.com/iriauli/client-side-form-validation",
-    "demo": "https://client-side-form-validation.netlify.app/",
+    "name": "Star Wars API",
+    "about": "Fetching data from Star Wars API",
+    "description": "Fetching info about people, films, starships, vehicles, species and planets from Star Wars API.",
+    "code": "https://github.com/iriauli/star-wars-api",
+    "demo": "https://the-star-wars-api.netlify.app/",
     "icon": "/app_004.png"
   },
   {
     "id": 5,
-    "name": "Data Fetching",
-    "description": "Different Methods for Data Fetching in React",
-    "code": "https://github.com/iriauli/data-fetching",
-    "demo": "https://data-fetching-usereducer.netlify.app/",
+    "name": "Client-Side Form Validation",
+    "about": "Handle and Validate React Forms",
+    "description": "Handle and Validate React Forms",
+    "code": "https://github.com/iriauli/client-side-form-validation",
+    "demo": "https://client-side-form-validation.netlify.app/",
     "icon": "/app_005.png"
   }
 ]
