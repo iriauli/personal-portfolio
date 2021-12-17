@@ -60,8 +60,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1.9s ease-out;
-  -webkit-transition: 1.9s ease-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
 }
 
 @media only screen and (max-width: 970px) {
@@ -91,10 +91,9 @@
 }
 
 .shapes:hover .singleShape {
-
   border-radius: 50% 50% 45% 55% / 50% 60% 40% 50%;
-  transition: 1.9s ease-out;
-  -webkit-transition: 1.9s ease-out;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
 }
 
 .shapes:hover .firstTitle {
