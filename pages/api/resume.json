@@ -1,0 +1,144 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "",
+    "education": "Education",
+    "work": "Work Experience"
+  },
+  "basics": {
+    "name": "Irakli Iriauli",
+    "phone": "+995 591 051 081",
+    "email": "irakliiriauli@gmail.com",
+    "website": "https://www.linkedin.com/in/iriauli/"
+  },
+  "education": [
+    {
+      "area": "",
+      "endDate": "Jul 2021",
+      "gpa": "",
+      "institution": "Tbilisi School of Communication",
+      "startDate": "Apr 2021",
+      "studyType": "React (JavaScript Library)"
+    },
+    {
+      "institution": "East European University",
+      "studyType": "Master of Laws",
+      "startDate": "Oct 2015",
+      "endDate": "Mar 2019"
+    },
+    {
+      "startDate": "Oct 2011",
+      "endDate": "Jun 2015",
+      "institution": "Tbilisi Humanitarian University",
+      "studyType": "Bachelor of Laws"
+    }
+  ],
+  "work": [
+    {
+      "company": "Ministry of Internal Affairs of Georgia, Special Tasks Department ",
+      "location": "",
+      "position": "Lead Specialist",
+      "website": "",
+      "startDate": "May 2019",
+      "highlights": [
+        "Processing of an income-expense documentation",
+        "Conformity check of actual circumstance with financing estimation",
+        "Member of inventory control commission"
+      ],
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Drafting legal documents",
+        "Representation with the parties"
+      ],
+      "company": "FMG Legal",
+      "position": "Advocate Assistant",
+      "startDate": "Apr 2018",
+      "endDate": "Apr 2019"
+    },
+    {
+      "highlights": [
+        "Problematic asset management",
+        "Representative in state departments"
+      ],
+      "company": "Professional Legal Consulting",
+      "position": "Lawyer",
+      "startDate": "Oct 2017",
+      "endDate": "Apr 2018"
+    },
+    {
+      "highlights": [
+        "Optimize videos for YouTube search",
+        "200K + subscribers"
+      ],
+      "startDate": "2013",
+      "endDate": "2015",
+      "company": "Search Engine Optimization (SEO) on YouTube",
+      "position": "Part-time (self-employed)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technologies",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Sass",
+        "Styled-components"
+      ]
+    },
+    {
+      "keywords": ["Georgian (Native)", "English (B1)"],
+      "name": "Languages"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Portfolio",
+      "description": "Personal works, resume and social links.",
+      "url": "https://github.com/iriauli/personal-portfolio",
+      "keywords": [null]
+    },
+    {
+      "keywords": [null],
+      "name": "GitHub User Manager",
+      "description": "Fetching data from GitHub REST API. App divide into four parts: Dashboard - list of GitHub top users, Details - additional information about users (top repositories/organizations), Search - find users and Favorites - add/remove users.",
+      "url": "https://github.com/iriauli/github-user-manager"
+    },
+    {
+      "keywords": [null],
+      "description": "'Who Wants to Be a Millionaire' TV show app. Choose answers and app shows correct ones. If answer is correct the game continues, otherwise it is finished and earned money is appeared on screen.",
+      "name": "Millionaire App",
+      "url": "https://github.com/iriauli/millionaire-app"
+    },
+    {
+      "keywords": [null],
+      "name": "Trivia API Quiz",
+      "url": "https://github.com/iriauli/trivia-api-quiz",
+      "description": "Fetching data from Open Trivia Database. In the beginning there is opportunity to choose number of questions, categories and difficulty levels. At the end correct answers percentage is shown."
+    }
+  ],
+  "awards": [
+    {
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "skills",
+    "projects",
+    "work",
+    "awards"
+  ]
+}

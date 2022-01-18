@@ -7,23 +7,19 @@ const Card = (props) => {
 
   return (
     <div>
-      <div className={styles.card}>
-        <div className={styles.cardNumber}>
-          <h2>{id}</h2>
-        </div>
-        <div className={styles.cardContent}>
-          <h1>{name}</h1>
-          <h3>{about}</h3>
-        </div>
+      <Link href={"/projects/" + id}>
+        <div className={styles.card}>
+          <div className={styles.cardNumber}>
+            <h2>{id}</h2>
+          </div>
+          <div className={styles.cardContent}>
+            <h1>{name}</h1>
+            <h3>{about}</h3>
+          </div>
 
-        <div className={styles.cardDetails}>
-          <Link href={"/projects/" + id}>
-            <h3 className={styles.cardMore}>
-              See More <IoIosArrowRoundForward className={styles.cardArrow} />
-            </h3>
-          </Link>
+          <div className={styles.cardDetails}></div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

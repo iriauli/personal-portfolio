@@ -1,7 +1,5 @@
 .articles {
   padding: 30px 0px;
-  font-weight: 400;
-  font-size: 1.25rem;
   letter-spacing: -0.02em;
   text-align: center;
 }
@@ -12,7 +10,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: -.05em;
+  letter-spacing: -0.05em;
   font-size: 2.75rem;
   margin-bottom: 20px;
 }
@@ -20,4 +18,5 @@
 .text {
   color: #3c3c3c;
   line-height: 1.6em !important;
+  font-size: 1.25rem;
 }

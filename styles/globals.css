@@ -42,7 +42,6 @@ a {
   box-shadow: inset 0.1px 1px 5px -2px var(--gray);
 }
 
-
 .content2 {
   max-width: var(--breakpoint-lg);
   margin: 0 auto;
@@ -57,3 +56,4 @@ a {
 .active {
   background-color: red;
 }
+
